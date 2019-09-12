@@ -8,93 +8,45 @@
       <![CDATA[Zoho CRM - Sign in Title is MATCHED ====> Passed]]>
     </line>
     <line>
-      <![CDATA[SaveCustomerInCampaignList Testcase is STARTED]]>
+      <![CDATA[verifyCRMValidLoginTest Testcase is STARTED]]>
     </line>
     <line>
       <![CDATA[Zoho CRM - Home Page Title is MATCHED ====> Passed]]>
     </line>
     <line>
-      <![CDATA[Zoho CRM - Displaying Custom View Details Title is MATCHED ====> Passed]]>
-    </line>
-    <line>
-      <![CDATA[Zoho CRM - Create Campaign Title is MATCHED ====> Passed]]>
-    </line>
-    <line>
-      <![CDATA[Start Date Browser Title verification is Matched : passed]]>
-    </line>
-    <line>
-      <![CDATA[End Date Browser Title verification is Matched : passed]]>
-    </line>
-    <line>
-      <![CDATA[Dinga CampaignName  Verification is MATCHED===>PASSED ]]>
-    </line>
-    <line>
-      <![CDATA[Actual Campaign Name in Campaign List Verification is MATCHED===>PASSED ]]>
-    </line>
-    <line>
-      <![CDATA[Zoho CRM - Displaying Custom View Details Title is MATCHED ====> Passed]]>
-    </line>
-    <line>
-      <![CDATA[Zoho CRM - Create Lead Title is MATCHED ====> Passed]]>
-    </line>
-    <line>
-      <![CDATA[SaveCustomerInCampaignList Testcase is PASSED]]>
+      <![CDATA[verifyCRMValidLoginTest Testcase is PASSED]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61086" started-at="2019-09-10T13:28:30Z" finished-at="2019-09-10T13:29:31Z">
+  <suite name="Default suite" duration-ms="19288" started-at="2019-09-12T05:46:10Z" finished-at="2019-09-12T05:46:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61086" started-at="2019-09-10T13:28:30Z" finished-at="2019-09-10T13:29:31Z">
-      <class name="com.acti.tasksLib.SaveTheCustomerInCampaignsListTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.acti.tasksLib.SaveTheCustomerInCampaignsListTest@1c24521]" name="openBrowser" is-config="true" duration-ms="11209" started-at="2019-09-10T13:28:30Z" finished-at="2019-09-10T13:28:41Z">
+    <test name="Default test" duration-ms="19288" started-at="2019-09-12T05:46:10Z" finished-at="2019-09-12T05:46:29Z">
+      <class name="com.acti.tasksLib.CRMLoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.acti.tasksLib.CRMLoginTest@1c24521]" name="openBrowser" is-config="true" duration-ms="12774" started-at="2019-09-12T05:46:10Z" finished-at="2019-09-12T05:46:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.acti.tasksLib.SaveTheCustomerInCampaignsListTest@1c24521]" name="loginToApp" is-config="true" duration-ms="8023" started-at="2019-09-10T13:28:41Z" finished-at="2019-09-10T13:28:49Z">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.acti.tasksLib.CRMLoginTest@1c24521]" name="loginToApp" is-config="true" duration-ms="6425" started-at="2019-09-12T05:46:23Z" finished-at="2019-09-12T05:46:29Z">
           <reporter-output>
             <line>
               <![CDATA[Zoho CRM - Sign in Title is MATCHED ====> Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="SaveCustomerInCampaignList()[pri:0, instance:com.acti.tasksLib.SaveTheCustomerInCampaignsListTest@1c24521]" name="SaveCustomerInCampaignList" duration-ms="41801" started-at="2019-09-10T13:28:49Z" finished-at="2019-09-10T13:29:31Z">
+        <test-method status="PASS" signature="verifyCRMValidLoginTest()[pri:0, instance:com.acti.tasksLib.CRMLoginTest@1c24521]" name="verifyCRMValidLoginTest" duration-ms="37" started-at="2019-09-12T05:46:29Z" finished-at="2019-09-12T05:46:29Z">
           <reporter-output>
             <line>
-              <![CDATA[SaveCustomerInCampaignList Testcase is STARTED]]>
+              <![CDATA[verifyCRMValidLoginTest Testcase is STARTED]]>
             </line>
             <line>
               <![CDATA[Zoho CRM - Home Page Title is MATCHED ====> Passed]]>
             </line>
             <line>
-              <![CDATA[Zoho CRM - Displaying Custom View Details Title is MATCHED ====> Passed]]>
-            </line>
-            <line>
-              <![CDATA[Zoho CRM - Create Campaign Title is MATCHED ====> Passed]]>
-            </line>
-            <line>
-              <![CDATA[Start Date Browser Title verification is Matched : passed]]>
-            </line>
-            <line>
-              <![CDATA[End Date Browser Title verification is Matched : passed]]>
-            </line>
-            <line>
-              <![CDATA[Dinga CampaignName  Verification is MATCHED===>PASSED ]]>
-            </line>
-            <line>
-              <![CDATA[Actual Campaign Name in Campaign List Verification is MATCHED===>PASSED ]]>
-            </line>
-            <line>
-              <![CDATA[Zoho CRM - Displaying Custom View Details Title is MATCHED ====> Passed]]>
-            </line>
-            <line>
-              <![CDATA[Zoho CRM - Create Lead Title is MATCHED ====> Passed]]>
-            </line>
-            <line>
-              <![CDATA[SaveCustomerInCampaignList Testcase is PASSED]]>
+              <![CDATA[verifyCRMValidLoginTest Testcase is PASSED]]>
             </line>
           </reporter-output>
-        </test-method> <!-- SaveCustomerInCampaignList -->
-      </class> <!-- com.acti.tasksLib.SaveTheCustomerInCampaignsListTest -->
+        </test-method> <!-- verifyCRMValidLoginTest -->
+      </class> <!-- com.acti.tasksLib.CRMLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
