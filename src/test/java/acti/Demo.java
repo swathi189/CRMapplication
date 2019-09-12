@@ -8,6 +8,6 @@ public class Demo {
 	@Test
 	public void run()
 	{
-		Reporter.log("Run",true);
+		Reporter.log("Run method",true);
 	}
 }
