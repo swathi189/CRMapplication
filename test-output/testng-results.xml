@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="12" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[registration is succcess ====> SmokeTest]]>
+    </line>
+    <line>
+      <![CDATA[Integration Test 1]]>
+    </line>
+    <line>
+      <![CDATA[Integration Test 2]]>
+    </line>
+    <line>
+      <![CDATA[Regression]]>
+    </line>
+    <line>
+      <![CDATA[System Test]]>
+    </line>
+    <line>
+      <![CDATA[Both Smoke and Regression test]]>
+    </line>
+    <line>
+      <![CDATA[smoke test 1]]>
+    </line>
+    <line>
+      <![CDATA[smoke test 2]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="85" started-at="2019-10-10T10:19:38Z" finished-at="2019-10-10T10:19:38Z">
+    <groups>
+      <group name="ST">
+        <method signature="Grouping.runST()[pri:0, instance:testng.Grouping@38203]" name="runST" class="testng.Grouping"/>
+      </group> <!-- ST -->
+      <group name="Regression">
+        <method signature="Grouping.runRT()[pri:0, instance:testng.Grouping@38203]" name="runRT" class="testng.Grouping"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Customer.register()[pri:0, instance:testng.Customer@1ee9faa]" name="register" class="testng.Customer"/>
+        <method signature="Grouping.runSmoke1()[pri:0, instance:testng.Grouping@38203]" name="runSmoke1" class="testng.Grouping"/>
+        <method signature="Grouping.runSmoke2()[pri:0, instance:testng.Grouping@38203]" name="runSmoke2" class="testng.Grouping"/>
+      </group> <!-- Smoke -->
+      <group name="IT">
+        <method signature="Grouping.runIT1()[pri:0, instance:testng.Grouping@38203]" name="runIT1" class="testng.Grouping"/>
+        <method signature="Grouping.runIT2()[pri:0, instance:testng.Grouping@38203]" name="runIT2" class="testng.Grouping"/>
+      </group> <!-- IT -->
+      <group name="Smoke,Regression">
+        <method signature="Grouping.runSTandRT()[pri:0, instance:testng.Grouping@38203]" name="runSTandRT" class="testng.Grouping"/>
+      </group> <!-- Smoke,Regression -->
+    </groups>
+    <test name="Test" duration-ms="85" started-at="2019-10-10T10:19:38Z" finished-at="2019-10-10T10:19:38Z">
+      <class name="testng.Customer">
+        <test-method status="PASS" signature="register()[pri:0, instance:testng.Customer@1ee9faa]" name="register" duration-ms="16" started-at="2019-10-10T10:19:38Z" finished-at="2019-10-10T10:19:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[registration is succcess ====> SmokeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- testng.Customer -->
+      <class name="testng.Grouping">
+        <test-method status="PASS" signature="runIT1()[pri:0, instance:testng.Grouping@38203]" name="runIT1" duration-ms="1" started-at="2019-10-10T10:19:38Z" finished-at="2019-10-10T10:19:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Integration Test 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runIT1 -->
+        <test-method status="PASS" signature="runIT2()[pri:0, instance:testng.Grouping@38203]" name="runIT2" duration-ms="5" started-at="2019-10-10T10:19:38Z" finished-at="2019-10-10T10:19:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Integration Test 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runIT2 -->
+        <test-method status="PASS" signature="runRT()[pri:0, instance:testng.Grouping@38203]" name="runRT" duration-ms="2" started-at="2019-10-10T10:19:38Z" finished-at="2019-10-10T10:19:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Regression]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runRT -->
+        <test-method status="PASS" signature="runST()[pri:0, instance:testng.Grouping@38203]" name="runST" duration-ms="1" started-at="2019-10-10T10:19:38Z" finished-at="2019-10-10T10:19:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[System Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runST -->
+        <test-method status="PASS" signature="runSTandRT()[pri:0, instance:testng.Grouping@38203]" name="runSTandRT" duration-ms="1" started-at="2019-10-10T10:19:38Z" finished-at="2019-10-10T10:19:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Both Smoke and Regression test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runSTandRT -->
+        <test-method status="PASS" signature="runSmoke1()[pri:0, instance:testng.Grouping@38203]" name="runSmoke1" duration-ms="1" started-at="2019-10-10T10:19:38Z" finished-at="2019-10-10T10:19:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[smoke test 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runSmoke1 -->
+        <test-method status="PASS" signature="runSmoke2()[pri:0, instance:testng.Grouping@38203]" name="runSmoke2" duration-ms="4" started-at="2019-10-10T10:19:38Z" finished-at="2019-10-10T10:19:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[smoke test 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runSmoke2 -->
+      </class> <!-- testng.Grouping -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

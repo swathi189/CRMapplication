@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<groups>
+  		<define name="ALL">
+  			<include name="Smoke"></include>
+  			<include name="Regression"></include>
+  			<include name="FT"></include>
+  			<include name="IT"></include>
+  			<include name="ST"></include>
+  			<include name="Smoke,Regression"></include>
+  			<include name="IT,ST"></include>
+  		</define>
+  		
+  		<run>
+  			<include name="ALL" ></include>
+  			<exclude name="FT"></exclude>
+  			<exclude name="IT,ST"></exclude>
+  			
+  		</run>
+  
+ 	 </groups>
+  
+  
+    <classes>
+      <class name="testng.Customer"/>
+      <class name="testng.Grouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
