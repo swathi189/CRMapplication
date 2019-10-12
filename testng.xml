@@ -3,9 +3,13 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+<<<<<<< HEAD
       <class name="testng.Customer"/>
       <class name="testng.Demo"/>
       <class name="testng.Remo"/>
+=======
+      <class name="act.Demo"/>
+>>>>>>> branch 'master' of https://github.com/swathi189/CRMapplication.git
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

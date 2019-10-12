@@ -3,11 +3,23 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="testng.Parallel3">
         <methods>
           <include name="runChrome"/>
         </methods>
       </class> <!-- testng.Parallel3 -->
+=======
+      <class name="com.acti.tasksLib.SaveTheCustomerInCampaignsListTest">
+        <methods>
+          <include name="SaveCustomerInCampaignList"/>
+          <include name="loginToApp"/>
+          <include name="LogoutFromApp"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.acti.tasksLib.SaveTheCustomerInCampaignsListTest -->
+>>>>>>> branch 'master' of https://github.com/swathi189/CRMapplication.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

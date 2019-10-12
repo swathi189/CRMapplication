@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="0" ignored="4" total="12" passed="8">
   <reporter-output>
     <line>
@@ -110,4 +111,56 @@
       </class> <!-- testng.Grouping -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Default test Execution STARTED]]>
+    </line>
+    <line>
+      <![CDATA[Zoho CRM - Sign in Title is MATCHED ====> Passed]]>
+    </line>
+    <line>
+      <![CDATA[verifyCRMValidLoginTest Testcase is STARTED]]>
+    </line>
+    <line>
+      <![CDATA[Zoho CRM - Home Page Title is MATCHED ====> Passed]]>
+    </line>
+    <line>
+      <![CDATA[verifyCRMValidLoginTest Testcase is PASSED]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19288" started-at="2019-09-12T05:46:10Z" finished-at="2019-09-12T05:46:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19288" started-at="2019-09-12T05:46:10Z" finished-at="2019-09-12T05:46:29Z">
+      <class name="com.acti.tasksLib.CRMLoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.acti.tasksLib.CRMLoginTest@1c24521]" name="openBrowser" is-config="true" duration-ms="12774" started-at="2019-09-12T05:46:10Z" finished-at="2019-09-12T05:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.acti.tasksLib.CRMLoginTest@1c24521]" name="loginToApp" is-config="true" duration-ms="6425" started-at="2019-09-12T05:46:23Z" finished-at="2019-09-12T05:46:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Zoho CRM - Sign in Title is MATCHED ====> Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="verifyCRMValidLoginTest()[pri:0, instance:com.acti.tasksLib.CRMLoginTest@1c24521]" name="verifyCRMValidLoginTest" duration-ms="37" started-at="2019-09-12T05:46:29Z" finished-at="2019-09-12T05:46:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyCRMValidLoginTest Testcase is STARTED]]>
+            </line>
+            <line>
+              <![CDATA[Zoho CRM - Home Page Title is MATCHED ====> Passed]]>
+            </line>
+            <line>
+              <![CDATA[verifyCRMValidLoginTest Testcase is PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCRMValidLoginTest -->
+      </class> <!-- com.acti.tasksLib.CRMLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+>>>>>>> branch 'master' of https://github.com/swathi189/CRMapplication.git
 </testng-results>
